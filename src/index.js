@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://hotel.netlify.app", "http://localhost:3000"],
     credentials: true,
   })
 );
